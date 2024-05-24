@@ -7,3 +7,5 @@ SELECT
 	COUNT(CASE WHEN department_id = 6 THEN 1 END) AS "Research and Development",
 	COUNT(CASE WHEN department_id = 7 THEN 1 END) AS "Production"
 FROM employees;
+
+-- Using SUM() also works
