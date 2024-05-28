@@ -6,7 +6,7 @@ SELECT
 FROM 
 	employees AS e
 JOIN	
-	employees_projects AS ep
+	employees_projects AS e_p
 	USING(employee_id)	
 		JOIN
 			projects AS p
