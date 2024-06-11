@@ -12,8 +12,8 @@ LEFT JOIN
 ON co.car_id = c.id
 GROUP BY 
 	c.id,
-	c.make,
-	c.mileage
+	--c.make,
+	--c.mileage
 HAVING
 	COUNT(c.id) != 2
 ORDER BY 
