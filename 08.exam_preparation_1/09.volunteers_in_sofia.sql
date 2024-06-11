@@ -2,6 +2,7 @@ SELECT
 	v.name AS volunteers,
 	v.phone_number,
 	TRIM(v.address, 'Sofia, ') AS address
+    --TRIM(v.address, '%Sofia%, ') AS address
 	
 FROM 
 	volunteers AS v
