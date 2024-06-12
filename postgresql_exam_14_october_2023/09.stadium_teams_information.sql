@@ -21,3 +21,7 @@ $$
 	END;
 $$
 LANGUAGE plpgsql;
+
+SELECT fn_stadium_team_name('BlogXS');
+SELECT fn_stadium_team_name('Quaxo');
+SELECT fn_stadium_team_name('Jaxworks');
