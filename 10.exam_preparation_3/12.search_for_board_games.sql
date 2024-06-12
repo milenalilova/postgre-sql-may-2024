@@ -52,3 +52,7 @@ $$
 	END;
 $$
 LANGUAGE plpgsql;
+
+
+CALL usp_search_by_category('Wargames');
+SELECT * FROM search_results;
