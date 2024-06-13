@@ -31,3 +31,7 @@ $$
 	END;
 $$
 LANGUAGE plpgsql;
+
+SELECT * FROM fn_feedbacks_for_product('Banitsa');
+SELECT * FROM fn_feedbacks_for_product('ALCOHOL');
+SELECT * FROM fn_feedbacks_for_product('Bread');
